@@ -22,7 +22,7 @@ Before running the script, ensure you have the following:
 1. **Clone or download** this repository.
 2. **Install dependencies:**
    ```bash
-   pip install python-escpos
+   pip install python-escpos[all]
    ```
    ```bash
    pip install requests
