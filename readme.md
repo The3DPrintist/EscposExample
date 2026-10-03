@@ -1,10 +1,10 @@
-# Printer Feed - Automated Receipt Printing System
+# Automated Receipt Printing System
 
 A Python-based service that fetches data from a remote server and automatically prints it via a USB thermal printer using the `python-escpos` library.
 
 ## Overview
 
-This script is designed to act as a bridge between a web service (or any API) and a physical thermal printer (such as those used in retail or restaurant environments). It polls a specified URL at regular intervals; every time new data is successfully fetched, it is formatted and sent to the connected printer.
+This script is designed to act as a bridge between a web service (or any API) and a physical thermal printer. It polls a specified URL at regular intervals; every time new data is successfully fetched, it is formatted and sent to the connected printer.
 
 ## Features
 - **Automatic Polling:** Automatically fetches data from a defined URL at a configurable interval.
